@@ -83,7 +83,7 @@ URxvt.cursorBlink:  true
 URxvt.visualBell: false
 URxvt.scrollBarStyle: plain
 URxvt.scrollBar_right: true
-xvt.secondaryScreen: true
+URxvt.secondaryScreen: true
 URxvt.secondaryScroll: false
 URxvt.secondaryWheel: 1
 URxvt.font: xft:inconsolata:14
