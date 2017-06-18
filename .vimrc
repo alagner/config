@@ -1,3 +1,5 @@
+set nocompatible
+set selection=old
 set hls
 set ignorecase
 set smartcase
