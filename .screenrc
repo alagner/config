@@ -1,0 +1,21 @@
+term screen-256color
+startup_message off
+caption always
+
+# number from 1
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10                                                            
+screen 1
+# scroll with scrollbar
+termcapinfo xterm* ti@:te@
+
+# clear window after exiting vim
+altscreen on
+
+term rxvt-unicode-256color
+
+# status bar
+rdstatus off
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W} %c %{g}]'
