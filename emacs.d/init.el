@@ -1,0 +1,5 @@
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/package"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/indentation"))
+(require 'melpa)
+(require 'gruvbox-theme)
+(require 'default-indent)

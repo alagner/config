@@ -91,6 +91,7 @@ URxvt.boldFont: xft:inconsolata:bold:14
 URxvt.italicFont: xft:inconsolata:italic:14
 URxvt.termName: rxvt-unicode-256color
 URxvt.clipboard.autocopy: true
+URxvt.meta8: false
 URxvt.fading: 150
 
 ! font config

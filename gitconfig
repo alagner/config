@@ -1,6 +1,3 @@
-[user]
-	email = 
-	name = 
 [difftool]
 	prompt = 0
 [mergetool]
