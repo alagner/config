@@ -10,6 +10,15 @@ screen 1
 # scroll with scrollbar
 termcapinfo xterm* ti@:te@
 
+bind o focus
+
+# emacs-like, but C-a instead of C-x as escape char
+bind 1 only
+bind 2 split
+bind 3 split -v
+bind 0 move
+
+
 # clear window after exiting vim
 altscreen on
 
