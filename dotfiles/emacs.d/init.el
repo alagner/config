@@ -10,4 +10,4 @@
 (require 'default-indent)
 (require 'font-size)
 (setq font-size-default 20)
-(font-size-set-default)
+(font-size-set)
