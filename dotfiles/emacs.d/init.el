@@ -19,6 +19,7 @@
 
 (require 'default-indent)
 (require 'font-size)
+(require 'completion-close)
 (setq font-size-default 20)
 (font-size-set)
 (custom-set-variables
